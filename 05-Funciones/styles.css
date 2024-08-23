@@ -1,0 +1,57 @@
+body{
+    background-image: url(./Images/trafico2.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    padding: 30px;
+    
+}
+
+.semaforo{
+    width: 150px;
+    height: 350px;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px #222;
+    
+}
+
+.soporte{
+    width: 40px;
+    height: 500px;
+    background-color: black;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+    margin: -50px auto;
+    box-shadow: 0px 20px 25px #222;
+    
+} 
+
+.light{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px auto;
+
+
+}
+
+#red{
+    background-color: gray;
+
+}
+
+#yellow{
+    background-color: gray;
+}
+
+#green{
+    background-color: gray;
+}
